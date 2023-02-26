@@ -1,0 +1,60 @@
+* {
+    font-family: "poppins", sans-serif;
+}
+
+.header {
+    background-color: white;
+}
+
+.header .navbar-brand {
+    font-size: 30px;
+}
+
+.header .navbar-nav {
+    color: black;
+    font-size: 15px;
+    margin-inline: 10px;
+}
+
+.header .navbar-nav :hover{
+    color: rgb(0, 89, 255);
+
+}
+
+.header .row {
+    min-height: 85vh;
+}
+
+.header .row .col:nth-child(1) .h1 {
+    font-size: 100px;
+}
+
+.gambar {
+    width: 600px;
+    padding-left: 90px;
+}
+
+@media screen and (max-width: 1200px) {
+    .header .row .col:nth-child(1) h1{
+        font-size: 60px;
+        padding-top: 100px;
+    }
+
+    .h2 {
+        padding-top: 100px;
+    }
+
+    .p {
+        font-size: 70px;
+    }
+    .gambar {
+        width: 450px;
+    }
+}
+
+.card {
+    text-align: center;
+    margin: 100px;
+
+}
+
